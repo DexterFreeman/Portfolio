@@ -4,6 +4,10 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .mainContent {
   display: flex;
   flex-wrap: wrap;
@@ -36,8 +40,10 @@
 }
 .mainContent .skillsSection {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .mainContent .skillsSection__icons {
   height: 70%;
@@ -48,12 +54,20 @@
   justify-content: center;
 }
 .mainContent .skillsSection__icons img {
-  display: flex;
-  align-items: center;
   height: 20%;
   width: 20%;
   margin: 20px;
 }
 .mainContent .projectsSection div {
   margin-bottom: 100px;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

@@ -12,22 +12,26 @@
   margin: 25px;
   margin-bottom: 100px;
   align-items: center;
-}
-.mainContent img {
-  height: 300px;
-  width: 100%;
-}
-.mainContent .mainContent__greeting {
-  align-self: flex-start;
-}
-.mainContent .mainContent__aboutMe {
   text-align: center;
 }
-.mainContent .mainContent__title {
-  font-size: 50px;
+.mainContent section {
   margin-bottom: 100px;
 }
-.mainContent .mainContent__aboutMeText {
+.mainContent .introSection {
+  text-align: left;
+}
+.mainContent img {
+  height: 50%;
+  width: 50%;
+}
+.mainContent .introSection__greeting {
+  align-self: flex-start;
+}
+.mainContent .introSection__title {
+  font-size: 50px;
+}
+.mainContent .aboutMeSection__aboutMeText {
   font-size: 16px;
+  text-align: left;
   margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

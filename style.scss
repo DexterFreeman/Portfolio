@@ -13,32 +13,36 @@
     margin: 25px;
     margin-bottom: 100px;
     align-items: center;
+    text-align: center;
 
-
-    img{
-        height: 300px;
-        width: 100%;
-    }
-
-    .mainContent__greeting{
-        align-self: flex-start;
-    }
-    .mainContent__aboutMe{
-        text-align: center;
-        
-        
-    }
-    .mainContent__title{
-        font-size: 50px;
+    section {
         margin-bottom: 100px;
     }
 
-    .mainContent__aboutMeText{
+    .introSection{
+        text-align: left;
+    }
+
+    img{
+        height: 50%;
+        width: 50%;
+    }
+
+    .introSection__greeting{
+        align-self: flex-start;
+    }
+    
+    .introSection__title{
+        font-size: 50px;
+     
+    }
+
+    .aboutMeSection__aboutMeText{
         font-size: 16px;
+        text-align: left;
         margin-bottom: 40px;
     }
 
     
 
-    
 }

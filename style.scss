@@ -50,6 +50,7 @@ nav{
 
             &__image{
                 width: 70vw;
+                max-width: 600px;
             }
             
         }
@@ -117,6 +118,14 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    img{
+        height: 60px;
+    }
+
+    p{
+        font-size: 20px;
+    }
 
 }
 

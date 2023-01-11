@@ -61,6 +61,15 @@
 .mainContent .projectsSection div {
   margin-bottom: 100px;
 }
+.mainContent .projectsSection button {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: solid 1px black;
+  background-color: white;
+}
 
 footer {
   height: 200px;

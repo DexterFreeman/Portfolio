@@ -1,4 +1,33 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.mainContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 25px;
+  margin-bottom: 100px;
+  align-items: center;
+}
+.mainContent img {
+  height: 300px;
+  width: 100%;
+}
+.mainContent .mainContent__greeting {
+  align-self: flex-start;
+}
+.mainContent .mainContent__aboutMe {
+  text-align: center;
+}
+.mainContent .mainContent__title {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+.mainContent .mainContent__aboutMeText {
+  font-size: 16px;
+  margin-bottom: 40px;
 }/*# sourceMappingURL=style.css.map */

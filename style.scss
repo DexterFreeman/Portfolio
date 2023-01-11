@@ -17,13 +17,13 @@ nav{
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin: 25px;
-    margin-bottom: 100px;
+    margin: 5%;
+    margin-bottom: 5%;
     align-items: center;
     text-align: center;
 
     section {
-        margin-bottom: 100px;
+        margin-bottom: 20%;
 
     
         .introSection{
@@ -38,6 +38,10 @@ nav{
                 font-size: 50px;
                 text-align: left;
             }      
+
+            &__picture{
+                display: none;
+            }
         }
     
         .aboutMeSection{
@@ -45,7 +49,7 @@ nav{
             &__aboutMeText{
             font-size: 14px;
             text-align: left;
-            margin-bottom: 40px;
+            margin-bottom: 5%;
             }
 
             &__image{
@@ -83,14 +87,14 @@ nav{
             img{
                 height: 20%;
                 width: 20%;
-                margin: 20px;
+                margin: 5%;
             }
         }
     }
 
     .projectsSection{
         div{
-            margin-bottom: 100px;
+            margin-bottom: 20%;
         }
 
         button{
@@ -149,6 +153,27 @@ footer{
             text-decoration: none;
         }
         
+    }
+
+    .mainContent{
+        section{
+           
+
+            .introSection{
+                display: flex;
+
+                &__title{
+                   
+                    width: 40%;
+                }
+
+                &__picture{
+                
+                    width: 40%;
+                    display: flex;
+                }
+            }
+        }
     }
     
 }

@@ -17,13 +17,13 @@ nav {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  margin: 25px;
-  margin-bottom: 100px;
+  margin: 5%;
+  margin-bottom: 5%;
   align-items: center;
   text-align: center;
 }
 .mainContent section {
-  margin-bottom: 100px;
+  margin-bottom: 20%;
 }
 .mainContent section .introSection__greeting {
   align-self: flex-start;
@@ -33,10 +33,13 @@ nav {
   font-size: 50px;
   text-align: left;
 }
+.mainContent section .introSection__picture {
+  display: none;
+}
 .mainContent section .aboutMeSection__aboutMeText {
   font-size: 14px;
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 5%;
 }
 .mainContent section .aboutMeSection__image {
   width: 70vw;
@@ -60,10 +63,10 @@ nav {
 .mainContent .skillsSection__icons img {
   height: 20%;
   width: 20%;
-  margin: 20px;
+  margin: 5%;
 }
 .mainContent .projectsSection div {
-  margin-bottom: 100px;
+  margin-bottom: 20%;
 }
 .mainContent .projectsSection button {
   font-size: 16px;
@@ -105,5 +108,15 @@ footer p {
   }
   nav a {
     text-decoration: none;
+  }
+  .mainContent section .introSection {
+    display: flex;
+  }
+  .mainContent section .introSection__title {
+    width: 40%;
+  }
+  .mainContent section .introSection__picture {
+    width: 40%;
+    display: flex;
   }
 }/*# sourceMappingURL=style.css.map */

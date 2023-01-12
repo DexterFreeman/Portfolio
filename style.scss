@@ -13,63 +13,53 @@ nav{
 }
 
 .mainContent{
-    
+    margin: 5%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    margin: 5%;
-    
     align-items: center;
     text-align: center;
 
     section {
-        margin-bottom: 10%;
+        margin-bottom: 15%;
     }
 
     .introSection{
-            
-    
-            &__greeting{
+        
+            .introSection__greeting{
                 align-self: flex-start;
                 text-align: left;
             }
     
-            &__title{
+            .introSection__title{
                 font-size: 50px;
                 text-align: left;
             }      
 
-            &__picture{
+            .introSection__picture{
                 display: none;
             }
-        }
-    
-        .aboutMeSection{
-
-            .aboutMeSection__title--desktop{
-                display: none;
-            }
-
-            &__aboutMeText{
-            font-size: 14px;
-            text-align: left;
-            margin-bottom: 5%;
-            }
-
-            &__image{
-                width: 70vw;
-                max-width: 600px;
-        }
-            
+        }      
     }
-    
 
-    
-    
-   
+    .aboutMeSection{
+        width: 90%;
+        .aboutMeSection__title--desktop{
+            display: none;
+            margin-bottom: 0%; 
+        }
 
-    
+        .aboutMeSection__aboutMeText{
+        font-size: 14px;
+        text-align: left;
+        margin-bottom: 5%;
+        }
+
+        .aboutMeSection__image{
+            width: 70vw;
+            max-width: 600px;
+        }
+    }
 
     .skillsSection{
         
@@ -80,15 +70,12 @@ nav{
         justify-content: center;
         
         .skillsSection__icons{
-           
-          
             width: 70%;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
             justify-content: center;
             
-
             img{
                 height: 20%;
                 width: 20%;
@@ -98,38 +85,36 @@ nav{
     }
 
     .projectsSection{
-        div{
-            
-            margin-bottom: 20%;
 
-           
+        h1{
+            font-size: 30px;
+        }
+        .projectsSection__contentContainer{
+            display: flex;
+            flex-wrap: wrap;
+        
+            button{
+                font-size: 16px;
+                font-weight: bold;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 5px;
+                border: solid 1px black;
+                background-color: white;
+                
+            }
 
             p, h1{
-                
                 text-align: left;
             }
-            h1{
-                margin-bottom: 4%;
-            }
-        }
-        
 
-        button{
-            
-            font-size: 16px;
-            font-weight: bold;
-            margin: 10px;
-            padding: 10px;
-            border-radius: 5px;
-            border: solid 1px black;
-            background-color: white;
-            
-        }
+            h1{
+                font-size: 24px;
+                margin-bottom: 4%;
+            } 
+        }  
     }
 
-    
-
-}
 
 footer{
     height: 200px;
@@ -152,11 +137,9 @@ footer{
 
 
 @media screen and (min-width:1280px) {
-    nav{
-       
+    nav{ 
         margin: 50px;
         display: flex;
-        
         justify-content: space-between;
         
         .nav__links{
@@ -175,14 +158,12 @@ footer{
     .mainContent{
        
         .introSection{
-            height: 50vh; 
-            
-                
+            height: 50vh;    
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+
             .introSection__title{
-               
                 width: 40%;
             }
 
@@ -196,44 +177,57 @@ footer{
             height: 60vh;
             text-align: left;
             display: flex;
-           
             flex-wrap: wrap;
-            flex-direction: column;    
-           
+            flex-direction: column;   
+
             .aboutMeSection__aboutMeText{
                 width: 50%;
             }
-
+            .aboutMeSection__image{
+                margin-right: 2%;
+            }
             .aboutMeSection__title--desktop{
                 display: flex;
-                
+                margin-bottom: 2%;    
             }
+
             .aboutMeSection__title--mobile{
                 display: none;
-            }
-            
+            } 
         }
 
         .skillsSection{
             width: 100%;
+
             .skillsSection__icons{
-               
                 display: flex;
                 flex-direction: row;
                 flex-wrap: wrap;
                 justify-content: center;
                 align-self: center;
                 width: 100%;
+
                 img{
                     height: 5%;
                     width: 5%;
                     margin: 3%;
                 }
-               
-               
-
             }
         }
+
+        .projectsSection{
+            width: 100%;
+
+            .projectsSection__contentContainer{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 2%;
+
+                button{
+                    align-items: left;
+                }  
+            }   
+        }
     }
-    
 }

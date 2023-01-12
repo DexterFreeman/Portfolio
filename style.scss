@@ -24,7 +24,6 @@ nav{
     text-align: center;
 
     section {
-        
         margin-bottom: 10%;
     }
 
@@ -80,9 +79,9 @@ nav{
         flex-wrap: wrap;
         justify-content: center;
         
-        &__icons{
+        .skillsSection__icons{
            
-            height: 70%;
+          
             width: 70%;
             display: flex;
             flex-wrap: wrap;
@@ -197,6 +196,7 @@ footer{
             height: 60vh;
             text-align: left;
             display: flex;
+           
             flex-wrap: wrap;
             flex-direction: column;    
            
@@ -212,6 +212,27 @@ footer{
                 display: none;
             }
             
+        }
+
+        .skillsSection{
+            width: 100%;
+            .skillsSection__icons{
+               
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-self: center;
+                width: 100%;
+                img{
+                    height: 5%;
+                    width: 5%;
+                    margin: 3%;
+                }
+               
+               
+
+            }
         }
     }
     

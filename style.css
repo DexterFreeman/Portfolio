@@ -18,30 +18,32 @@ nav {
   flex-direction: column;
   justify-content: center;
   margin: 5%;
-  margin-bottom: 5%;
   align-items: center;
   text-align: center;
 }
 .mainContent section {
-  margin-bottom: 20%;
+  margin-bottom: 10%;
 }
-.mainContent section .introSection__greeting {
+.mainContent .introSection__greeting {
   align-self: flex-start;
   text-align: left;
 }
-.mainContent section .introSection__title {
+.mainContent .introSection__title {
   font-size: 50px;
   text-align: left;
 }
-.mainContent section .introSection__picture {
+.mainContent .introSection__picture {
   display: none;
 }
-.mainContent section .aboutMeSection__aboutMeText {
+.mainContent .aboutMeSection .aboutMeSection__title--desktop {
+  display: none;
+}
+.mainContent .aboutMeSection__aboutMeText {
   font-size: 14px;
   text-align: left;
   margin-bottom: 5%;
 }
-.mainContent section .aboutMeSection__image {
+.mainContent .aboutMeSection__image {
   width: 70vw;
   max-width: 600px;
 }
@@ -115,14 +117,33 @@ footer p {
   nav a {
     text-decoration: none;
   }
-  .mainContent section .introSection {
+  .mainContent .introSection {
+    height: 50vh;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
-  .mainContent section .introSection__title {
+  .mainContent .introSection .introSection__title {
     width: 40%;
   }
-  .mainContent section .introSection__picture {
+  .mainContent .introSection .introSection__picture {
     width: 40%;
     display: flex;
+  }
+  .mainContent .aboutMeSection {
+    height: 60vh;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .mainContent .aboutMeSection .aboutMeSection__aboutMeText {
+    width: 50%;
+  }
+  .mainContent .aboutMeSection .aboutMeSection__title--desktop {
+    display: flex;
+  }
+  .mainContent .aboutMeSection .aboutMeSection__title--mobile {
+    display: none;
   }
 }/*# sourceMappingURL=style.css.map */

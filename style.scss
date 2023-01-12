@@ -13,20 +13,22 @@ nav{
 }
 
 .mainContent{
+    
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     margin: 5%;
-    margin-bottom: 5%;
+    
     align-items: center;
     text-align: center;
 
     section {
-        margin-bottom: 20%;
+        
+        margin-bottom: 10%;
+    }
 
-    
-        .introSection{
+    .introSection{
             
     
             &__greeting{
@@ -46,6 +48,10 @@ nav{
     
         .aboutMeSection{
 
+            .aboutMeSection__title--desktop{
+                display: none;
+            }
+
             &__aboutMeText{
             font-size: 14px;
             text-align: left;
@@ -55,10 +61,10 @@ nav{
             &__image{
                 width: 70vw;
                 max-width: 600px;
-            }
-            
         }
+            
     }
+    
 
     
     
@@ -168,23 +174,44 @@ footer{
     }
 
     .mainContent{
-        section{
-           
-
-            .introSection{
-                display: flex;
-
-                &__title{
-                   
-                    width: 40%;
-                }
-
-                &__picture{
+       
+        .introSection{
+            height: 50vh; 
+            
                 
-                    width: 40%;
-                    display: flex;
-                }
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            .introSection__title{
+               
+                width: 40%;
             }
+
+            .introSection__picture{
+                width: 40%;
+                display: flex;
+            }
+        }
+
+        .aboutMeSection{
+            height: 60vh;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;    
+           
+            .aboutMeSection__aboutMeText{
+                width: 50%;
+            }
+
+            .aboutMeSection__title--desktop{
+                display: flex;
+                
+            }
+            .aboutMeSection__title--mobile{
+                display: none;
+            }
+            
         }
     }
     

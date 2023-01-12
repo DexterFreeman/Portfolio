@@ -11,14 +11,14 @@
     <nav>
         <h1>Dexter Freeman</h1>
       <div class="nav__links">
-        <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Projects</a>
-        <a href="">Get in Touch</a>
+        <a href="#intro">Home</a>
+        <a href="#aboutMe">About</a>
+        <a href="#projects">Projects</a>
+        <a id="btnGetInTouch" href="#footer">Get in Touch</a>
     </div>
     </nav>
     <main class="mainContent">
-        <section class="introSection">
+        <section id="intro" class="introSection">
             
             <h1 class="introSection__greeting"> 👋 Hello, I'm Dexter Freeman</h1>
             <h1 class="introSection__title">A Junior Software Developer based in the UK.</h1>
@@ -26,7 +26,7 @@
             <img class="introSection__picture"src="/images/Picture.png" alt="">
         </section>
 
-        <section class="aboutMeSection">
+        <section id="aboutMe" class="aboutMeSection">
             <h1 class="aboutMeSection__title--mobile">About me</h1>
             
             <img class="aboutMeSection__image" src="/images/dexter.svg" alt="image of Dexter">
@@ -39,7 +39,7 @@
             </p>
         </section>
 
-        <section class="skillsSection">
+        <section id="skills" class="skillsSection">
             <h1> Technical skills</h1>
             <p>idk what to put here atm so i guess i'll just add this filler for now so i can style it correctly</p>
             <div class="skillsSection__icons">
@@ -53,12 +53,12 @@
                 <img src="images/HTML5.png" alt="HTML5">
                 <img src="images/Git.png" alt="Git">
                 <img src="" alt="python">
-                <img src="" alt="django">
+                <img src="images/django2.png" alt="django">
                 <img src="" alt="SQL">
             </div>
         </section>
 
-        <section class="projectsSection">
+        <section id="projects" class="projectsSection">
 
             <h1>My Projects</h1>
 
@@ -99,13 +99,32 @@
                     <button>Code &lt;/&gt;</button>
                     <button>Preview &lt;/&gt;</button>
                 </div>
+
+
+                <div id="project5">
+                    <img src="/images/sampleProject.png" alt="project 5 image">
+                    <p>REACT<p>
+                    <h1>Client Project</h1>
+                    <p>This is a project that is amazing and super efficient and nothing went wrong with it smile</p>
+                    <button>Code &lt;/&gt;</button>
+                    <button>Preview &lt;/&gt;</button>
+                </div>
+
+                <div id="project6">
+                    <img src="/images/sampleProject.png" alt="project 6 image">
+                    <p>REACT<p>
+                    <h1>Client Project</h1>
+                    <p>This is a project that is amazing and super efficient and nothing went wrong with it smile</p>
+                    <button>Code &lt;/&gt;</button>
+                    <button>Preview &lt;/&gt;</button>
+                </div>
                 
             </div>
         </section>
         
     </main>
 
-    <footer>
+    <footer id="footer">
         <div>
             <img src="/images/github.png" alt="github">
             <img src="/images/linkedin.png" alt="linkedin">

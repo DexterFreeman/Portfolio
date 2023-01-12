@@ -68,6 +68,12 @@ nav {
 .mainContent .projectsSection div {
   margin-bottom: 20%;
 }
+.mainContent .projectsSection div p, .mainContent .projectsSection div h1 {
+  text-align: left;
+}
+.mainContent .projectsSection div h1 {
+  margin-bottom: 4%;
+}
 .mainContent .projectsSection button {
   font-size: 16px;
   font-weight: bold;

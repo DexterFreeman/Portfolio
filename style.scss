@@ -1,7 +1,12 @@
+$color-dark-blue: #7395AE;
+$color-darker-blue: #557A95;
+
 *{
+    background-color: $color-dark-blue;
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 *::-webkit-scrollbar {
@@ -9,12 +14,15 @@
 }
 
 nav{
+    
     display: none;
+    
 
     
 }
 
 .mainContent{
+    
     margin: 5%;
     display: flex;
     flex-direction: column;
@@ -24,6 +32,7 @@ nav{
 
     section {
         margin-bottom: 15%;
+        
     }
 
     .introSection{
@@ -124,17 +133,18 @@ nav{
 
 footer{
     height: 200px;
-    background-color: black;
+    background-color: $color-darker-blue;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-
-    
+    *{
+        background-color: $color-darker-blue;
+    }
 
     p{
-        font-size: 20px;
+        font-size: 20px;  
     }
 
     a{
@@ -155,12 +165,13 @@ footer{
             display: flex;
             justify-content: space-between;
             align-items: center;
+            a{
+                text-decoration: none;
+                font-size: 18px;
+            }
         }
 
-        a{
-            text-decoration: none;
-            font-size: 18px;
-        }
+        
 
         #btnGetInTouch{
             border: 1px solid black;
@@ -254,5 +265,6 @@ footer{
     footer{
         display: flex;
         flex-direction: row-reverse;
+        
     }
 }

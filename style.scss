@@ -1,5 +1,8 @@
 $color-dark-blue: #7395AE;
 $color-darker-blue: #557A95;
+$color-light-brown: #B1A296;
+$color-light-gray: #909292;
+$color-gray: #5D5C61;
 
 *{
     background-color: $color-dark-blue;
@@ -160,6 +163,7 @@ footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
         .nav__links{
             width: 30%;
             display: flex;
@@ -168,6 +172,7 @@ footer{
             a{
                 text-decoration: none;
                 font-size: 18px;
+                color: black;
             }
         }
 

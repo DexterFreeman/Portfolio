@@ -131,12 +131,14 @@ footer{
     justify-content: space-around;
     align-items: center;
 
-    img{
-        height: 60px;
-    }
+    
 
     p{
         font-size: 20px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
 }
@@ -247,5 +249,10 @@ footer{
                 }  
             }   
         }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
     }
 }

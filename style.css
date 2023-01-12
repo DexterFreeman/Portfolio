@@ -108,11 +108,11 @@ footer {
   justify-content: space-around;
   align-items: center;
 }
-footer img {
-  height: 60px;
-}
 footer p {
   font-size: 20px;
+}
+footer a {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1280px) {
@@ -200,5 +200,9 @@ footer p {
   }
   .mainContent .projectsSection .projectsSection__contentContainer button {
     align-items: left;
+  }
+  footer {
+    display: flex;
+    flex-direction: row-reverse;
   }
 }/*# sourceMappingURL=style.css.map */

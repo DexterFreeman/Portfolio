@@ -63,7 +63,7 @@ nav{
                 text-align: left;
             }      
 
-            .introSection__picture{
+            .introSection__image{
                 display: none;
             }
         }      
@@ -71,6 +71,10 @@ nav{
 
     .aboutMeSection{
         width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         .aboutMeSection__title--desktop{
             display: none;
             margin-bottom: 0%; 
@@ -83,8 +87,17 @@ nav{
         }
 
         .aboutMeSection__image{
-            width: 70vw;
+            
+            
+        }
+
+        .aboutMeSection__image--mobile{
+            display: flex;
+            width: 65vw;
             max-width: 550px;
+        }
+        .aboutMeSection__image--desktop{
+            display: none;
         }
 
        
@@ -230,12 +243,14 @@ footer{
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
 
             .introSection__title{
                 width: 40%;
             }
 
-            .introSection__picture{
+            .introSection__image{
                 width: 40%;
                 display: flex;
             }
@@ -261,6 +276,17 @@ footer{
             .aboutMeSection__title--mobile{
                 display: none;
             } 
+
+            .aboutMeSection__image{
+                width: 40vw;
+                max-width: 800px;
+            }
+            .aboutMeSection__image--desktop{
+                display: flex;
+            }
+            .aboutMeSection__image--mobile{
+                display: none;
+            }
         }
 
         .skillsSection{
@@ -309,7 +335,14 @@ footer{
     }
 }
 
+@media screen and (min-width:1400px) {
+    .mainContent{
 
+        
+    }
+    
+    
+}
 
 @media screen and (min-width:1600px) {
     .mainContent{
@@ -338,7 +371,7 @@ footer{
         }
 
         .aboutMeSection{
-            height: 50vh;
+            height: 60vh;
            
             text-align: left;
             display: flex;
@@ -347,9 +380,11 @@ footer{
 
             .aboutMeSection__aboutMeText{
                 font-size: 24px;
+              
             }
             .aboutMeSection__image{
                 margin-right: 0;
+                margin-bottom: 10%;
             }
             .aboutMeSection__title--desktop{
                 font-size: 30px;   

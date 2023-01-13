@@ -25,7 +25,8 @@ nav {
   margin-right: 5%;
 }
 .mainContent .introSection {
-  margin-bottom: 10%;
+  margin-bottom: 15%;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

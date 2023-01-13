@@ -1,16 +1,6 @@
 
+@import "variables.scss";
 
-$color-dark-blue: #7395AE;
-$color-darker-blue: #557A95;
-$color-light-brown: #B1A296;
-$color-light-gray: #909292;
-$color-gray: #5D5C61;
-$color-text-blue: rgb(23, 45, 53);
-$color-button-blue: rgb(37, 150, 190);
-$color-text-light-blue: #2596be;
-$aqua: #BAE8E8;
-$aboutme-color: #E3F6F5;
-$footer-color: #272643;
 
 
 *{
@@ -41,23 +31,23 @@ nav{
     }
 
     .introSection{
-            margin-bottom: 10%;
+            margin-bottom: 15%;
+            margin-top: 10%;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
             align-items: flex-start;
+
             .blueUnderline{
                 background-image: url("/images/Vector.png");
                 background-size: 100% 20px;
-            
                 background-repeat: no-repeat;
                 background-position: 0 90%; 
             }
             
             .introSection__greeting{
                 align-self: flex-start;
-                text-align: left;
-                
+                text-align: left; 
             }
     
             .introSection__title{
@@ -91,6 +81,7 @@ nav{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+
         .aboutMeSection__title--desktop{
             display: none;
             margin-bottom: 0%; 
@@ -102,18 +93,15 @@ nav{
         margin-bottom: 5%;
         }
 
-       
-
         .aboutMeSection__image--mobile{
             display: flex;
             width: 65vw;
             max-width: 550px;
         }
+
         .aboutMeSection__image--desktop{
             display: none;
-        }
-
-       
+        } 
     }
 
     .skillsSection{
@@ -129,8 +117,8 @@ nav{
             background-size: 100% 10px;
             background-repeat: no-repeat;
             background-position: 0 90%; 
-            
         }
+
         .skillsSection__icons{
             width: 70%;
             max-width: 600px;
@@ -150,12 +138,12 @@ nav{
     .projectsSection{
         margin-bottom: 10%;
         width: 80vw;
+
         .blueUnderline{
             background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
             background-size: 100% 10px;
             background-repeat: no-repeat;
             background-position: 0 90%; 
-            
         }
 
         h1{
@@ -163,7 +151,6 @@ nav{
         }
 
         a{  
-            
             font-size: 24px;
             font-weight: bold;
             margin: 10px;
@@ -184,8 +171,10 @@ nav{
         .projectsSection__contentContainer{
             display: flex;
             flex-direction: column;
+
             div{
                 margin-bottom: 5%;
+
                 .buttons{
                     margin-top: 3%;
                     text-decoration: none;
@@ -195,8 +184,6 @@ nav{
                     width: 90%;
                     max-width: 30vw;
                 }
-
-               
             }
         }
     }
@@ -223,9 +210,7 @@ footer{
     a{
         text-decoration: none;
     }
-
 }
-
 
 @media screen and (min-width:1280px) {
     nav{ 
@@ -239,6 +224,7 @@ footer{
             display: flex;
             justify-content: space-between;
             align-items: center;
+
             a{
                 text-decoration: none;
                 font-size: 18px;
@@ -246,8 +232,6 @@ footer{
                 font-weight: bold;
             }
         }
-
-        
 
         #btnGetInTouch{
             border: 1px solid black;
@@ -262,7 +246,6 @@ footer{
     .mainContent{
        
         .introSection{
-            
             height: 40vh;    
             display: flex;
             flex-direction: column;
@@ -306,9 +289,11 @@ footer{
                 width: 40vw;
                 max-width: 800px;
             }
+
             .aboutMeSection__image--desktop{
                 display: flex;
             }
+
             .aboutMeSection__image--mobile{
                 display: none;
             }
@@ -343,10 +328,10 @@ footer{
                 grid-template-rows: 1fr 1fr;
                 grid-gap: 2%;
 
-                
                 #project5, #project6{
                     display: block;
                 }
+
                 button{
                     align-items: left;
                 }  
@@ -357,24 +342,18 @@ footer{
     footer{
         display: flex;
         flex-direction: row-reverse;
-        
     }
 }
 
-
-
 @media screen and (min-width:1700px) {
     .mainContent{
-       
-        .introSection{
-            
+        .introSection{ 
             height: 55vh;    
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;
 
             .introSection__title{
-                
                 font-size: 80px;
             }
 
@@ -386,12 +365,10 @@ footer{
             .introSection__greeting{
                 font-size: 40px;
             }
-        
         }
 
         .aboutMeSection{
             height: 54vh;
-           
             text-align: left;
             display: flex;
             flex-wrap: wrap;
@@ -399,7 +376,6 @@ footer{
 
             .aboutMeSection__aboutMeText{
                 font-size: 24px;
-              
             }
             .aboutMeSection__image{
                 margin-right: 0;
@@ -408,18 +384,18 @@ footer{
             .aboutMeSection__title--desktop{
                 font-size: 30px;   
             }
-
-           
         }
+
         .skillsSection{
             width: 80%;
+
             h1{
                 font-size: 50px;
             }
+
             p{
                 font-size: 24px;
             }
-            
         }
 
         .projectsSection{
@@ -431,17 +407,16 @@ footer{
                 padding: 10px;
                 border: none;
                 background-color: white;
-                
             }
+
             p{
                 font-size: 24px;
             }
+
             h1{
                 font-size: 50px;
                 margin-bottom: 4%;
-            }
-               
+            }      
         }
-
     }
 }

@@ -58,16 +58,6 @@ nav {
   width: 70vw;
   max-width: 550px;
 }
-.aboutMeSection .aboutMeSection__image--shape {
-  position: absolute;
-  left: 8%;
-  bottom: 70%;
-}
-.aboutMeSection .aboutMeSection__image--squiggle {
-  position: absolute;
-  left: 65%;
-  top: 70%;
-}
 
 .skillsSection {
   display: flex;

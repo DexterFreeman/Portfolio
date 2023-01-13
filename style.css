@@ -97,14 +97,19 @@ nav {
 .projectsSection .projectsSection__contentContainer {
   display: flex;
   flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 4%;
+}
+.projectsSection .projectsSection__contentContainer .buttons {
+  display: flex;
 }
 .projectsSection .projectsSection__contentContainer button {
   font-size: 16px;
   font-weight: bold;
   margin: 10px;
   padding: 10px;
-  border-radius: 5px;
-  border: solid 1px black;
+  border: none;
   background-color: white;
 }
 .projectsSection .projectsSection__contentContainer p, .projectsSection .projectsSection__contentContainer h1 {
@@ -112,7 +117,6 @@ nav {
 }
 .projectsSection .projectsSection__contentContainer h1 {
   font-size: 24px;
-  margin-bottom: 4%;
 }
 .projectsSection .projectsSection__contentContainer #project5, .projectsSection .projectsSection__contentContainer #project6 {
   display: none;
@@ -153,7 +157,7 @@ footer a {
   nav .nav__links a {
     text-decoration: none;
     font-size: 18px;
-    color: black;
+    color: rgb(23, 45, 53);
   }
   nav #btnGetInTouch {
     border: 1px solid black;
@@ -183,12 +187,10 @@ footer a {
   .mainContent .aboutMeSection .aboutMeSection__aboutMeText {
     width: 50%;
   }
-  .mainContent .aboutMeSection .aboutMeSection__image {
-    margin-right: 2%;
-  }
   .mainContent .aboutMeSection .aboutMeSection__title--desktop {
     display: flex;
     margin-bottom: 2%;
+    margin-top: 5%;
   }
   .mainContent .aboutMeSection .aboutMeSection__title--mobile {
     display: none;
@@ -247,7 +249,7 @@ footer a {
     font-size: 40px;
   }
   .mainContent .aboutMeSection {
-    height: 50vh;
+    height: 55vh;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
@@ -279,8 +281,7 @@ footer a {
     font-weight: bold;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    border: solid 1px black;
+    border: none;
     background-color: white;
   }
   .mainContent .projectsSection p {

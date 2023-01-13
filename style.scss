@@ -5,12 +5,16 @@ $color-darker-blue: #557A95;
 $color-light-brown: #B1A296;
 $color-light-gray: #909292;
 $color-gray: #5D5C61;
+$color-text-blue: rgb(23, 45, 53);
+$color-button-blue: rgb(37, 150, 190);
+$color-text-light-blue: #2596be;
+
 
 *{
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(23, 45, 53)
+    color:$color-text-blue;
 }
 
 *::-webkit-scrollbar {
@@ -132,16 +136,21 @@ nav{
         .projectsSection__contentContainer{
             display: flex;
             flex-wrap: wrap;
-        
+            align-content: center;
+            justify-content: center;
+            margin-bottom: 4%;
+            .buttons{
+                display: flex;   
+                
+            }
             button{
+                
                 font-size: 16px;
                 font-weight: bold;
                 margin: 10px;
                 padding: 10px;
-                border-radius: 5px;
-                border: solid 1px black;
+                border: none;
                 background-color: white;
-                
             }
 
             p, h1{
@@ -150,7 +159,7 @@ nav{
 
             h1{
                 font-size: 24px;
-                margin-bottom: 4%;
+                
             } 
 
             #project5, #project6{
@@ -198,7 +207,7 @@ footer{
             a{
                 text-decoration: none;
                 font-size: 18px;
-                color: black;
+                color: $color-text-blue;
             }
         }
 
@@ -241,12 +250,11 @@ footer{
             .aboutMeSection__aboutMeText{
                 width: 50%;
             }
-            .aboutMeSection__image{
-                margin-right: 2%;
-            }
+            
             .aboutMeSection__title--desktop{
                 display: flex;
-                margin-bottom: 2%;    
+                margin-bottom: 2%;  
+                margin-top: 5%;  
             }
 
             .aboutMeSection__title--mobile{
@@ -329,7 +337,7 @@ footer{
         }
 
         .aboutMeSection{
-            height: 50vh;
+            height: 55vh;
             text-align: left;
             display: flex;
             flex-wrap: wrap;
@@ -365,8 +373,7 @@ footer{
                 font-weight: bold;
                 margin: 10px;
                 padding: 10px;
-                border-radius: 10px;
-                border: solid 1px black;
+                border: none;
                 background-color: white;
                 
             }

@@ -47,7 +47,7 @@ nav{
     }
 
     .introSection{
-            
+            margin-bottom: 10%;
             .blueUnderline{
                 background-image: url("/images/Vector.png");
                 background-size: 100% 20px;
@@ -73,7 +73,7 @@ nav{
     }
 
     .aboutMeSection{
-        background-color:#BAE8E8;
+        background-color:white;
         width: 100vw;
         height: 50vh;
         margin: 0;
@@ -107,7 +107,7 @@ nav{
     }
 
     .skillsSection{
-        
+        margin-bottom: 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -137,6 +137,7 @@ nav{
     }
 
     .projectsSection{
+        margin-bottom: 10%;
         width: 80vw;
         .blueUnderline{
             background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
@@ -261,6 +262,7 @@ footer{
         }
 
         .aboutMeSection{
+            background-color:#BAE8E8;
             height: 50vh;
             text-align: left;
             display: flex;

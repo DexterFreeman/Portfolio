@@ -154,6 +154,10 @@ nav {
   margin-top: 3%;
   text-decoration: none;
 }
+.projectsSection .projectsSection__contentContainer div img {
+  width: 90%;
+  max-width: 30vw;
+}
 
 footer {
   height: 200px;

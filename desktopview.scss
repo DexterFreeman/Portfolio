@@ -1,0 +1,133 @@
+
+@media screen and (min-width:1280px) {
+    nav{ 
+        margin: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .nav__links{
+            width: 30%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a{
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-text-blue;
+                font-weight: bold;
+            }
+        }
+
+        #btnGetInTouch{
+            border: 1px solid black;
+            border-radius: 5px;
+            padding: 8px;
+            background-color: $aqua;
+            font-weight: bold;
+        }
+        
+    }
+
+    .mainContent{
+       
+        .introSection{
+            height: 40vh;    
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+
+            .introSection__title{
+                width: 40%;
+            }
+
+            .introSection__image{
+                width: 40%;
+                display: flex;
+            }
+        }
+
+        .aboutMeSection{
+            background-color: $aboutme-color;
+            height: 50vh;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;   
+
+            .aboutMeSection__aboutMeText{
+                width: 50%;
+            }
+            
+            .aboutMeSection__title--desktop{
+                display: flex;
+                margin-bottom: 2%;  
+                margin-top: 5%;  
+            }
+
+            .aboutMeSection__title--mobile{
+                display: none;
+            } 
+
+            .aboutMeSection__image{
+                width: 40vw;
+                max-width: 800px;
+            }
+
+            .aboutMeSection__image--desktop{
+                display: flex;
+            }
+
+            .aboutMeSection__image--mobile{
+                display: none;
+            }
+        }
+
+        .skillsSection{
+            width: 100%;
+
+            .skillsSection__icons{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-self: center;
+                width: 100%;
+                max-width: 100%;
+
+                img{
+                    height: 5%;
+                    width: 5%;
+                    margin: 3%;
+                }
+            }
+        }
+
+        .projectsSection{
+            width: 80vw;
+            
+            .projectsSection__contentContainer{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                grid-template-rows: 1fr 1fr;
+                grid-gap: 2%;
+
+                #project5, #project6{
+                    display: block;
+                }
+
+                button{
+                    align-items: left;
+                }  
+            }   
+        }
+    }
+
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}

@@ -128,32 +128,31 @@ nav {
 .projectsSection h1 {
   font-size: 30px;
 }
-.projectsSection .projectsSection__contentContainer {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  margin-bottom: 4%;
-}
-.projectsSection .projectsSection__contentContainer .buttons {
-  display: flex;
-}
-.projectsSection .projectsSection__contentContainer button {
-  font-size: 16px;
+.projectsSection a {
+  font-size: 24px;
   font-weight: bold;
   margin: 10px;
   padding: 10px;
   border: none;
   background-color: white;
+  text-decoration: none;
 }
-.projectsSection .projectsSection__contentContainer p, .projectsSection .projectsSection__contentContainer h1 {
+.projectsSection p, .projectsSection h1 {
   text-align: left;
 }
-.projectsSection .projectsSection__contentContainer h1 {
-  font-size: 24px;
-}
-.projectsSection .projectsSection__contentContainer #project5, .projectsSection .projectsSection__contentContainer #project6 {
+.projectsSection #project5, .projectsSection #project6 {
   display: none;
+}
+.projectsSection .projectsSection__contentContainer {
+  display: flex;
+  flex-direction: column;
+}
+.projectsSection .projectsSection__contentContainer div {
+  margin-bottom: 5%;
+}
+.projectsSection .projectsSection__contentContainer div .buttons {
+  margin-top: 3%;
+  text-decoration: none;
 }
 
 footer {

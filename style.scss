@@ -161,39 +161,39 @@ nav{
         h1{
             font-size: 30px;
         }
+
+        a{  
+            
+            font-size: 24px;
+            font-weight: bold;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            background-color: white;
+            text-decoration: none;
+        }
+
+        p, h1{
+            text-align: left;
+        }
+
+        #project5, #project6{
+            display: none;
+        }
+
         .projectsSection__contentContainer{
             display: flex;
-            flex-wrap: wrap;
-            align-content: center;
-            justify-content: center;
-            margin-bottom: 4%;
-            .buttons{
-                display: flex;   
-                
-            }
-            button{
-                
-                font-size: 16px;
-                font-weight: bold;
-                margin: 10px;
-                padding: 10px;
-                border: none;
-                background-color: white;
-            }
+            flex-direction: column;
+            div{
+                margin-bottom: 5%;
+                .buttons{
+                    margin-top: 3%;
+                    text-decoration: none;
+                }
 
-            p, h1{
-                text-align: left;
+               
             }
-
-            h1{
-                font-size: 24px;
-                
-            } 
-
-            #project5, #project6{
-                display: none;
-            }
-        }  
+        }
     }
 
 

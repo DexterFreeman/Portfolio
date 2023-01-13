@@ -14,7 +14,6 @@ nav {
 }
 
 .mainContent {
-  margin: 5%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +21,8 @@ nav {
   text-align: center;
 }
 .mainContent section {
-  margin-bottom: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .mainContent .introSection .blueUnderline {
   background-image: url("/images/Vector.png");
@@ -43,7 +43,10 @@ nav {
 }
 
 .aboutMeSection {
-  width: 90%;
+  background-color: #BAE8E8;
+  width: 100vw;
+  height: 50vh;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,6 +96,9 @@ nav {
   margin: 5%;
 }
 
+.projectsSection {
+  width: 80vw;
+}
 .projectsSection .blueUnderline {
   background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
   background-size: 100% 10px;
@@ -233,7 +239,7 @@ footer a {
     margin: 3%;
   }
   .mainContent .projectsSection {
-    width: 100%;
+    width: 80vw;
   }
   .mainContent .projectsSection .projectsSection__contentContainer {
     display: grid;
@@ -270,7 +276,7 @@ footer a {
     font-size: 40px;
   }
   .mainContent .aboutMeSection {
-    height: 60vh;
+    height: 54vh;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
@@ -296,7 +302,7 @@ footer a {
     font-size: 24px;
   }
   .mainContent .projectsSection {
-    width: 100%;
+    width: 80vw;
   }
   .mainContent .projectsSection button {
     font-size: 28px;

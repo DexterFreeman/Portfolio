@@ -31,7 +31,7 @@ nav{
 
 .mainContent{
     
-    margin: 5%;
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -39,7 +39,10 @@ nav{
     text-align: center;
 
     section {
-        margin-bottom: 15%;
+
+        margin-left: 5%;
+        margin-right: 5%;
+        
         
     }
 
@@ -70,7 +73,10 @@ nav{
     }
 
     .aboutMeSection{
-        width: 90%;
+        background-color:#BAE8E8;
+        width: 100vw;
+        height: 50vh;
+        margin: 0;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -86,10 +92,7 @@ nav{
         margin-bottom: 5%;
         }
 
-        .aboutMeSection__image{
-            
-            
-        }
+       
 
         .aboutMeSection__image--mobile{
             display: flex;
@@ -134,7 +137,7 @@ nav{
     }
 
     .projectsSection{
-
+        width: 80vw;
         .blueUnderline{
             background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
             background-size: 100% 10px;
@@ -190,6 +193,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
     *{
         background-color: $color-darker-blue;
     }
@@ -309,7 +313,7 @@ footer{
         }
 
         .projectsSection{
-            width: 100%;
+            width: 80vw;
             
             .projectsSection__contentContainer{
                 display: grid;
@@ -335,14 +339,7 @@ footer{
     }
 }
 
-@media screen and (min-width:1400px) {
-    .mainContent{
 
-        
-    }
-    
-    
-}
 
 @media screen and (min-width:1600px) {
     .mainContent{
@@ -371,7 +368,7 @@ footer{
         }
 
         .aboutMeSection{
-            height: 60vh;
+            height: 54vh;
            
             text-align: left;
             display: flex;
@@ -404,7 +401,7 @@ footer{
         }
 
         .projectsSection{
-            width: 100%;
+            width: 80vw;
             button{
                 font-size: 28px;
                 font-weight: bold;

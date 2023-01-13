@@ -135,6 +135,7 @@ footer * {
   background-color: #557A95;
 }
 footer p {
+  color: white;
   font-size: 20px;
 }
 footer a {

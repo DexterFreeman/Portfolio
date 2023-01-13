@@ -10,7 +10,7 @@ $color-gray: #5D5C61;
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    color:rgb(23, 45, 53)
 }
 
 *::-webkit-scrollbar {
@@ -82,6 +82,8 @@ nav{
             width: 70vw;
             max-width: 550px;
         }
+
+       
     }
 
     .skillsSection{

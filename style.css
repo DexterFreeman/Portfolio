@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rgb(23, 45, 53);
 }
 
 *::-webkit-scrollbar {
@@ -56,6 +57,16 @@ nav {
 .aboutMeSection .aboutMeSection__image {
   width: 70vw;
   max-width: 550px;
+}
+.aboutMeSection .aboutMeSection__image--shape {
+  position: absolute;
+  left: 8%;
+  bottom: 70%;
+}
+.aboutMeSection .aboutMeSection__image--squiggle {
+  position: absolute;
+  left: 65%;
+  top: 70%;
 }
 
 .skillsSection {

@@ -1,3 +1,5 @@
+
+
 $color-dark-blue: #7395AE;
 $color-darker-blue: #557A95;
 $color-light-brown: #B1A296;
@@ -271,5 +273,88 @@ footer{
         display: flex;
         flex-direction: row-reverse;
         
+    }
+}
+
+
+
+@media screen and (min-width:1600px) {
+    .mainContent{
+       
+        .introSection{
+            
+            height: 40vh;    
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            .introSection__title{
+                
+                font-size: 80px;
+            }
+
+            .introSection__picture{
+                width: 40%;
+                display: flex;
+            }
+
+            .introSection__greeting{
+                font-size: 40px;
+            }
+        
+        }
+
+        .aboutMeSection{
+            height: 50vh;
+            text-align: left;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;   
+
+            .aboutMeSection__aboutMeText{
+                font-size: 24px;
+            }
+            .aboutMeSection__image{
+                margin-right: 0;
+            }
+            .aboutMeSection__title--desktop{
+                font-size: 30px;   
+            }
+
+           
+        }
+        .skillsSection{
+            width: 100%;
+            h1{
+                font-size: 50px;
+            }
+            p{
+                font-size: 24px;
+            }
+            
+        }
+
+        .projectsSection{
+            width: 100%;
+            button{
+                font-size: 28px;
+                font-weight: bold;
+                margin: 10px;
+                padding: 10px;
+                border-radius: 10px;
+                border: solid 1px black;
+                background-color: white;
+                
+            }
+            p{
+                font-size: 24px;
+            }
+            h1{
+                font-size: 50px;
+                margin-bottom: 4%;
+            }
+               
+        }
+
     }
 }

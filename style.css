@@ -1,5 +1,4 @@
 * {
-  background-color: #7395AE;
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
@@ -23,6 +22,12 @@ nav {
 }
 .mainContent section {
   margin-bottom: 15%;
+}
+.mainContent .introSection .blueUnderline {
+  background-image: url("/images/Vector.png");
+  background-size: 100% 20px;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
 }
 .mainContent .introSection .introSection__greeting {
   align-self: flex-start;
@@ -60,6 +65,12 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+.skillsSection .blueUnderline {
+  background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+}
 .skillsSection .skillsSection__icons {
   width: 70%;
   display: flex;
@@ -73,6 +84,12 @@ nav {
   margin: 5%;
 }
 
+.projectsSection .blueUnderline {
+  background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 0 90%;
+}
 .projectsSection h1 {
   font-size: 30px;
 }

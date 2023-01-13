@@ -7,7 +7,6 @@ $color-light-gray: #909292;
 $color-gray: #5D5C61;
 
 *{
-    background-color: $color-dark-blue;
     padding: 0;
     margin: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -41,7 +40,15 @@ nav{
     }
 
     .introSection{
-        
+            
+            .blueUnderline{
+                background-image: url("/images/Vector.png");
+                background-size: 100% 20px;
+            
+                background-repeat: no-repeat;
+                background-position: 0 90%; 
+            }
+            
             .introSection__greeting{
                 align-self: flex-start;
                 text-align: left;
@@ -85,6 +92,13 @@ nav{
         flex-wrap: wrap;
         justify-content: center;
         
+        .blueUnderline{
+            background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+            background-size: 100% 10px;
+            background-repeat: no-repeat;
+            background-position: 0 90%; 
+            
+        }
         .skillsSection__icons{
             width: 70%;
             display: flex;
@@ -101,6 +115,14 @@ nav{
     }
 
     .projectsSection{
+
+        .blueUnderline{
+            background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+            background-size: 100% 10px;
+            background-repeat: no-repeat;
+            background-position: 0 90%; 
+            
+        }
 
         h1{
             font-size: 30px;

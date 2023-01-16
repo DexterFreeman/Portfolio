@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio - Dexter Freeman</title>
     <link rel="stylesheet" href="style.css" />
+    
   </head>
   <body>
     <nav>
@@ -18,7 +19,7 @@
       </div>
     </nav>
     <main class="mainContent">
-      <section id="intro" class="introSection">
+      <section id="intro" class="introSection  hidden">
         <h1 class="introSection__greeting">👋 Hello, I'm Dexter Freeman</h1>
         <h1 class="introSection__title">
           <span class="blueUnderline">A Junior Software Developer </span>based
@@ -32,7 +33,7 @@
         />
       </section>
 
-      <section id="skills" class="skillsSection">
+      <section id="skills" class="skillsSection hidden">
         <h1 class="blueUnderline">Technical skills</h1>
         <p>
           idk what to put here atm so i guess i'll just add this filler for now
@@ -54,7 +55,7 @@
         </div>
       </section>
 
-      <section id="projects" class="projectsSection">
+      <section id="projects" class="projectsSection hidden">
         <h1><span class="blueUnderline">My Projects</span></h1>
 
         <div class="projectsSection__contentContainer">
@@ -146,21 +147,21 @@
         </div>
       </section>
 
-      <section id="aboutMe" class="aboutMeSection">
-        <h1 class="aboutMeSection__title--mobile">About me</h1>
+      <section id="aboutMe" class="aboutMeSection ">
+        <h1 class="aboutMeSection__title--mobile hidden">About me</h1>
 
         <img
-          class="aboutMeSection__image--mobile"
+          class="aboutMeSection__image--mobile hidden"
           src="images/aboutmeImage.png"
           alt="image of Dexter"
         />
         <img
-          class="aboutMeSection__image--desktop"
+          class="aboutMeSection__image--desktop hidden"
           src="images/Picture.png"
           alt=""
         />
-        <h1 class="aboutMeSection__title--desktop">About me</h1>
-        <p class="aboutMeSection__aboutMeText">
+        <h1 class="aboutMeSection__title--desktop hidden">About me</h1>
+        <p class="aboutMeSection__aboutMeText hidden">
           Nulla ac praesent tempor, orci sit nunc eget. Aliquam urna nunc,
           viverra sed tortor non. Id at pellentesque mauris at tincidunt
           venenatis urna mus. Sodales pretium tempus tincidunt tellus in
@@ -168,7 +169,7 @@
           enim lorem urna, vivamus pulvinar porttitor. Ultrices neque nec
           feugiat ullamcorper ultricies ante sagittis commodo.
         </p>
-        <p class="aboutMeSection__aboutMeText">
+        <p class="aboutMeSection__aboutMeText hidden">
           Nunc malesuada amet at eget consectetur sit. Nibh in ut diam nulla sed
           porttitor et. At neque tellus convallis urna, sodales neque. In enim
           auctor diam nunc duis rutrum adipiscing pellentesque eu. In
@@ -181,7 +182,7 @@
     </main>
 
     <footer id="footer">
-      <div class="footer__links">
+      <div class="footer__links hidden">
         <a
           href="https://github.com/DexterFreeman/"
           target="_blank"
@@ -201,7 +202,8 @@
           <img src="images/cv.png" alt="cv" />
         </a>
       </div>
-      <p>dexter.freeman10@hotmail.co.uk</p>
+      <p class="hidden">dexter.freeman10@hotmail.co.uk</p>
     </footer>
   </body>
 </html>
+<script src="main.js"></script>

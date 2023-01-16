@@ -242,7 +242,7 @@ footer a {
     justify-content: center;
     align-self: center;
     width: 90%;
-    max-width: 100%;
+    max-width: 90%;
   }
   .mainContent .skillsSection .skillsSection__icons img {
     height: 5%;
@@ -273,36 +273,19 @@ footer a {
 @media screen and (min-width: 1700px) {
   .mainContent .introSection {
     height: 55vh;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
   }
   .mainContent .introSection .introSection__title {
     font-size: 80px;
   }
-  .mainContent .introSection .introSection__picture {
-    width: 40%;
-    display: flex;
-  }
-  .mainContent .introSection .introSection__greeting {
-    font-size: 40px;
-  }
   .mainContent .aboutMeSection {
     height: 54vh;
-    text-align: left;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
   }
   .mainContent .aboutMeSection .aboutMeSection__aboutMeText {
     font-size: 24px;
   }
-  .mainContent .aboutMeSection .aboutMeSection__image {
-    margin-right: 0;
-    margin-bottom: 10%;
-  }
   .mainContent .aboutMeSection .aboutMeSection__title--desktop {
-    font-size: 30px;
+    font-size: 40px;
   }
   .mainContent .skillsSection {
     width: 80%;
@@ -315,14 +298,6 @@ footer a {
   }
   .mainContent .projectsSection {
     width: 80vw;
-  }
-  .mainContent .projectsSection button {
-    font-size: 28px;
-    font-weight: bold;
-    margin: 10px;
-    padding: 10px;
-    border: none;
-    background-color: white;
   }
   .mainContent .projectsSection p {
     font-size: 24px;

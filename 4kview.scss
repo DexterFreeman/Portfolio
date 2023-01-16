@@ -3,40 +3,24 @@
     .mainContent{
         .introSection{ 
             height: 55vh;    
-            display: flex;
-            flex-direction: column;
             flex-wrap: wrap;
 
             .introSection__title{
                 font-size: 80px;
             }
 
-            .introSection__picture{
-                width: 40%;
-                display: flex;
-            }
-
-            .introSection__greeting{
-                font-size: 40px;
-            }
+        
         }
 
         .aboutMeSection{
             height: 54vh;
-            text-align: left;
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;   
 
             .aboutMeSection__aboutMeText{
                 font-size: 24px;
             }
-            .aboutMeSection__image{
-                margin-right: 0;
-                margin-bottom: 10%;
-            }
+
             .aboutMeSection__title--desktop{
-                font-size: 30px;   
+                font-size: 40px;   
             }
         }
 
@@ -54,15 +38,7 @@
 
         .projectsSection{
             width: 80vw;
-            button{
-                font-size: 28px;
-                font-weight: bold;
-                margin: 10px;
-                padding: 10px;
-                border: none;
-                background-color: white;
-            }
-
+            
             p{
                 font-size: 24px;
             }

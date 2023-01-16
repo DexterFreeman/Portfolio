@@ -1,5 +1,4 @@
 
-
 *{
     padding: 0;
     margin: 0;
@@ -13,6 +12,11 @@
 
 nav{
     display: none;
+}
+
+
+p{
+    color:$color-text-light-blue;
 }
 
 .mainContent{
@@ -70,9 +74,9 @@ nav{
     }
 
     .aboutMeSection{
-        background-color:white;
+        background-color:lightblue;
         width: 100vw;
-        height: 50vh;
+        height: 55vh;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -87,7 +91,7 @@ nav{
         .aboutMeSection__aboutMeText{
         font-size: 14px;
         text-align: left;
-        margin-bottom: 5%;
+        margin-bottom: 20%;
         }
 
         .aboutMeSection__image--mobile{
@@ -398,6 +402,7 @@ nav{
 
 
 footer{
+    margin-top: 10%;
     height: 200px;
     background-color: $color-darker-blue;
     color: white;

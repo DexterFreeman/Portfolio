@@ -34,18 +34,19 @@
        
         .introSection{
             height: 40vh;    
-            display: flex;
-            flex-direction: column;
             flex-wrap: wrap;
             justify-content: center;
             align-items: flex-start;
 
+
+            //Limits width so each element can flex wrap correctly
             .introSection__title{
-                width: 40%;
+                width: 45%;
             }
 
             .introSection__image{
-                width: 40%;
+                width: 45%;
+                //display flex to make image visible - was none
                 display: flex;
             }
         }
@@ -53,10 +54,7 @@
         .aboutMeSection{
             background-color: $aboutme-color;
             height: 50vh;
-            text-align: left;
-            display: flex;
             flex-wrap: wrap;
-            flex-direction: column;   
             margin: 0;
 
             .aboutMeSection__aboutMeText{
@@ -69,22 +67,19 @@
                 margin-top: 5%;  
             }
 
-            .aboutMeSection__title--mobile{
-                display: none;
-            } 
-
-            .aboutMeSection__image{
-                width: 40vw;
-                max-width: 800px;
-            }
-
             .aboutMeSection__image--desktop{
                 display: flex;
+                width: 40vw;
+                max-width: 800px;
             }
 
             .aboutMeSection__image--mobile{
                 display: none;
             }
+
+            .aboutMeSection__title--mobile{
+                display: none;
+            } 
         }
 
         .skillsSection{
@@ -96,8 +91,8 @@
                 flex-wrap: wrap;
                 justify-content: center;
                 align-self: center;
-                width: 100%;
-                max-width: 100%;
+                width: 90%;
+                max-width: 90%;
 
                 img{
                     height: 5%;

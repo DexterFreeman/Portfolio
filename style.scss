@@ -16,6 +16,8 @@
     transform: translateX(0);
 }
 
+//for accessability, removes transition if user wants. 
+
 @media(prefers-reduced-motion){
     .hidden{
         transition: none;

@@ -196,26 +196,21 @@ footer a {
   }
   .mainContent .introSection {
     height: 40vh;
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
   }
   .mainContent .introSection .introSection__title {
-    width: 40%;
+    width: 45%;
   }
   .mainContent .introSection .introSection__image {
-    width: 40%;
+    width: 45%;
     display: flex;
   }
   .mainContent .aboutMeSection {
     background-color: #E3F6F5;
     height: 50vh;
-    text-align: left;
-    display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
     margin: 0;
   }
   .mainContent .aboutMeSection .aboutMeSection__aboutMeText {
@@ -226,17 +221,15 @@ footer a {
     margin-bottom: 2%;
     margin-top: 5%;
   }
-  .mainContent .aboutMeSection .aboutMeSection__title--mobile {
-    display: none;
-  }
-  .mainContent .aboutMeSection .aboutMeSection__image {
+  .mainContent .aboutMeSection .aboutMeSection__image--desktop {
+    display: flex;
     width: 40vw;
     max-width: 800px;
   }
-  .mainContent .aboutMeSection .aboutMeSection__image--desktop {
-    display: flex;
-  }
   .mainContent .aboutMeSection .aboutMeSection__image--mobile {
+    display: none;
+  }
+  .mainContent .aboutMeSection .aboutMeSection__title--mobile {
     display: none;
   }
   .mainContent .skillsSection {
@@ -248,7 +241,7 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     align-self: center;
-    width: 100%;
+    width: 90%;
     max-width: 100%;
   }
   .mainContent .skillsSection .skillsSection__icons img {

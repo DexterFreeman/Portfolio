@@ -58,6 +58,9 @@ p {
   border-radius: 7px;
   padding: 10px 20px;
 }
+.mainContent .introSection a:hover {
+  background-color: #cdf3f3;
+}
 
 .aboutMeSection {
   display: flex;
@@ -310,7 +313,7 @@ footer a {
 .hidden {
   opacity: 0;
   filter: blur(5px);
-  transform: translateX(-25%);
+  transform: translateX(-20%);
   transition: all 1s;
 }
 

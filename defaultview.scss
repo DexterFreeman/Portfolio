@@ -73,6 +73,11 @@ p{
                 border-radius: 7px;
                 padding: 10px 20px;
             }
+
+            a:hover{
+                background-color: $button-hover-color;
+
+            }
         }      
     }
 

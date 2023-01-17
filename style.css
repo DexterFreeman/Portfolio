@@ -92,7 +92,7 @@ p {
   justify-content: center;
 }
 .skillsSection .blueUnderline {
-  background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+  background-image: linear-gradient(to right, #bae8e8, #bae8e8);
 }
 .skillsSection .skillsSection__icons {
   width: 70%;
@@ -116,7 +116,8 @@ p {
 .projectsSection h1 {
   font-size: 40px;
 }
-.projectsSection p, .projectsSection h1 {
+.projectsSection p,
+.projectsSection h1 {
   text-align: left;
 }
 .projectsSection a {
@@ -129,9 +130,10 @@ p {
   text-decoration: none;
 }
 .projectsSection .blueUnderline {
-  background-image: linear-gradient(to right, #BAE8E8, #BAE8E8);
+  background-image: linear-gradient(to right, #bae8e8, #bae8e8);
 }
-.projectsSection #project5, .projectsSection #project6 {
+.projectsSection #project5,
+.projectsSection #project6 {
   display: none;
 }
 .projectsSection .projectsSection__contentContainer {

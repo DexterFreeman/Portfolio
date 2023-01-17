@@ -151,8 +151,8 @@ p {
   text-decoration: none;
 }
 .projectsSection .projectsSection__contentContainer div img {
-  width: 90%;
-  max-width: 30vw;
+  width: 100%;
+  max-width: 60vw;
 }
 
 footer {

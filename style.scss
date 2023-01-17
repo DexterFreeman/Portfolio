@@ -1,9 +1,9 @@
 //Imports other scss styling which contains the styling needed for each view.
 //(default view is mobile)
-@import "variables.scss";
-@import "defaultview.scss";
-@import "desktopview.scss";
-@import "4kview.scss";
+@import "Sass\variables.scss";
+@import "Sass\defaultview.scss";
+@import "Sass\desktopview.scss";
+@import "Sass\4kview.scss";
 
 //Components with .hidden have an onscroll animation, by using an
 //intersection observer in main.js to add the .show class.

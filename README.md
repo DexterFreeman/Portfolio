@@ -13,6 +13,7 @@ A small introduction section about myself and lastly links to my LinkedIn, Socia
 
 
 ## Accessability 
+This website was built was accessability in mind. By default the website does have on-scroll animations: if you wish to disable these please use the preferes reduced motion setting within your operating system. 
 Light house score: 
 
 ![lighthouse score](lighthouse-score.jpg)

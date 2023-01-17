@@ -1,131 +1,128 @@
+@media screen and (min-width: 1280px) {
+  //Styling for nav is in here because it isn't visible in the mobile view.
+  nav {
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-@media screen and (min-width:1280px) {
-    //Styling for nav is in here because it isn't visible in the mobile view.
-    nav{ 
-        margin: 50px;
+    .nav__links {
+      width: 30%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        font-size: 18px;
+        color: $color-text-blue;
+        font-weight: bold;
+      }
+    }
+
+    #btnGetInTouch {
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 8px;
+      background-color: $aqua;
+      font-weight: bold;
+    }
+  }
+
+  .mainContent {
+    .introSection {
+      height: 40vh;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+
+      //Limits width so each element can flex wrap correctly
+      .introSection__title {
+        width: 45%;
+      }
+
+      .introSection__image {
+        width: 45%;
+        //display flex to make image visible - was none
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        
-        .nav__links{
-            width: 30%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-
-            a{
-                text-decoration: none;
-                font-size: 18px;
-                color: $color-text-blue;
-                font-weight: bold;
-            }
-        }
-
-        #btnGetInTouch{
-            border: 1px solid black;
-            border-radius: 5px;
-            padding: 8px;
-            background-color: $aqua;
-            font-weight: bold;
-        }
-        
+      }
     }
 
-    .mainContent{
-       
-        .introSection{
-            height: 40vh;    
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: flex-start;
+    .aboutMeSection {
+      background-color: $aboutme-color;
+      height: 50vh;
+      flex-wrap: wrap;
+      margin: 0;
 
+      .aboutMeSection__aboutMeText {
+        width: 50%;
+      }
 
-            //Limits width so each element can flex wrap correctly
-            .introSection__title{
-                width: 45%;
-            }
-
-            .introSection__image{
-                width: 45%;
-                //display flex to make image visible - was none
-                display: flex;
-            }
-        }
-
-        .aboutMeSection{
-            background-color: $aboutme-color;
-            height: 50vh;
-            flex-wrap: wrap;
-            margin: 0;
-
-            .aboutMeSection__aboutMeText{
-                width: 50%;
-            }
-            
-            .aboutMeSection__title--desktop{
-                display: flex;
-                margin-bottom: 2%;  
-                margin-top: 5%;  
-            }
-
-            .aboutMeSection__image--desktop{
-                display: flex;
-                width: 40vw;
-                max-width: 800px;
-            }
-
-            .aboutMeSection__image--mobile{
-                display: none;
-            }
-
-            .aboutMeSection__title--mobile{
-                display: none;
-            } 
-        }
-
-        .skillsSection{
-            width: 100%;
-
-            .skillsSection__icons{
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-self: center;
-                width: 90%;
-                max-width: 90%;
-
-                img{
-                    height: 5%;
-                    width: 5%;
-                    margin: 3%;
-                }
-            }
-        }
-
-        .projectsSection{
-            width: 80vw;
-            
-            .projectsSection__contentContainer{
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 1fr 1fr;
-                grid-gap: 2%;
-
-                #project5, #project6{
-                    display: block;
-                }
-
-                button{
-                    align-items: left;
-                }  
-            }   
-        }
-    }
-
-    footer{
-        margin-top: 0%;
+      .aboutMeSection__title--desktop {
         display: flex;
-        flex-direction: row-reverse;
+        margin-bottom: 2%;
+        margin-top: 5%;
+      }
+
+      .aboutMeSection__image--desktop {
+        display: flex;
+        width: 40vw;
+        max-width: 800px;
+      }
+
+      .aboutMeSection__image--mobile {
+        display: none;
+      }
+
+      .aboutMeSection__title--mobile {
+        display: none;
+      }
     }
+
+    .skillsSection {
+      width: 100%;
+
+      .skillsSection__icons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-self: center;
+        width: 90%;
+        max-width: 90%;
+
+        img {
+          height: 5%;
+          width: 5%;
+          margin: 3%;
+        }
+      }
+    }
+
+    .projectsSection {
+      width: 80vw;
+
+      .projectsSection__contentContainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 2%;
+
+        #project5,
+        #project6 {
+          display: block;
+        }
+
+        button {
+          align-items: left;
+        }
+      }
+    }
+  }
+
+  footer {
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }

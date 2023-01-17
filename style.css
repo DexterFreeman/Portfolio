@@ -14,7 +14,7 @@ nav {
 }
 
 p {
-  color: #2596be;
+  color: #1B8383;
 }
 
 .mainContent {
@@ -52,7 +52,7 @@ p {
   margin-top: 5%;
   font-weight: bold;
   font-size: 20px;
-  background-color: #BAE8E8;
+  background-color: #9ae1e1;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 7px;
@@ -194,7 +194,7 @@ footer a {
     border: 1px solid black;
     border-radius: 5px;
     padding: 8px;
-    background-color: #BAE8E8;
+    background-color: #9ae1e1;
     font-weight: bold;
   }
   .mainContent .introSection {
@@ -261,7 +261,8 @@ footer a {
     grid-template-rows: 1fr 1fr;
     grid-gap: 2%;
   }
-  .mainContent .projectsSection .projectsSection__contentContainer #project5, .mainContent .projectsSection .projectsSection__contentContainer #project6 {
+  .mainContent .projectsSection .projectsSection__contentContainer #project5,
+.mainContent .projectsSection .projectsSection__contentContainer #project6 {
     display: block;
   }
   .mainContent .projectsSection .projectsSection__contentContainer button {

@@ -13,6 +13,6 @@ Light house score:
 ![lighthouse score](lighthouse-score.jpg)
 
 
-(If you don't disable the on scroll animations, the lighthouse test will fail)
+(If you don't disable the on scroll animations using preferes reduced motion, the lighthouse test will fail)
 
 ![css media query](carbon.png)

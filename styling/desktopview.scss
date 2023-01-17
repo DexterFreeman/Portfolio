@@ -56,7 +56,7 @@
       height: 50vh;
       flex-wrap: wrap;
       margin: 0;
-
+      //Similar logic as previous in changing the width so it fills the new page size.
       .aboutMeSection__aboutMeText {
         width: 50%;
       }
@@ -105,12 +105,14 @@
     .projectsSection {
       width: 80vw;
 
+      //Switched to display grid, instead of being display: flex; so it fits the page better.
       .projectsSection__contentContainer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 2%;
 
+        //Adds these projects into view as their previous display was none.
         #project5,
         #project6 {
           display: block;

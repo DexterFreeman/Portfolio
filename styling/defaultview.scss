@@ -59,9 +59,9 @@ p {
       display: none;
     }
 
-    //Take a look at my work button
+    //"Take a look at my work" button
     //Could give it a class, but I feel like there's no need since there is
-    //only one button in this section.
+    //only one button in this section so I can just target it with a{}
     a {
       margin-top: 5%;
       font-weight: bold;

@@ -9,6 +9,6 @@ You can view my portfolio via github pages using this link: [https://dexterfreem
 
 ## Accessability 
 Light house score: 
-![alt text](/images/lighthouse-score.jpg)
+![lighthouse score](images\lighthouse-score.jpg)
 (If you don't disable the on scroll animations, the lighthouse test will fail)
-![alt text](/images/carbon.png)
+![css media query](images\carbon.png)

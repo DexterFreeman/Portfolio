@@ -192,6 +192,9 @@ footer a {
     color: rgb(23, 45, 53);
     font-weight: bold;
   }
+  nav .nav__links a:hover {
+    background-color: #cdf3f3;
+  }
   nav #btnGetInTouch {
     border: 1px solid black;
     border-radius: 5px;

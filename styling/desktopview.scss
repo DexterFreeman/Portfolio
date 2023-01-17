@@ -18,6 +18,9 @@
         color: $color-text-blue;
         font-weight: bold;
       }
+      a:hover {
+        background-color: $button-hover-color;
+      }
     }
 
     #btnGetInTouch {

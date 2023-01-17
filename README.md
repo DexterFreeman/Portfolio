@@ -6,6 +6,11 @@ Hello, this is my personal portfolio which I created in January 2022 during the 
 
 You can view my portfolio via github pages using this link: [https://dexterfreeman.github.io/portfolio/](https://dexterfreeman.github.io/portfolio/). 
  
+## Contents
+This portfolio includes my projects, with links to their respective source code and live view within the "My Projects" section. 
+All of my relevant skills, including: HTML, CSS, JS, Java etc...
+A small introduction section about myself and lastly links to my LinkedIn, Socials and contact number if you wish to contact me!
+
 
 ## Accessability 
 Light house score: 

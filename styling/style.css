@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: rgb(23, 45, 53);
+  color: #172d35;
 }
 
 *::-webkit-scrollbar {
@@ -79,6 +79,7 @@ p {
 .aboutMeSection .aboutMeSection__image--mobile {
   width: 65vw;
   max-width: 550px;
+  margin-bottom: 5%;
 }
 .aboutMeSection .aboutMeSection__image--desktop {
   display: none;
@@ -90,6 +91,9 @@ p {
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
+}
+.skillsSection h1, .skillsSection p {
+  margin-bottom: 5%;
 }
 .skillsSection .blueUnderline {
   background-image: linear-gradient(to right, #bae8e8, #bae8e8);
@@ -115,6 +119,7 @@ p {
 }
 .projectsSection h1 {
   font-size: 40px;
+  margin-bottom: 5%;
 }
 .projectsSection p,
 .projectsSection h1 {
@@ -189,7 +194,7 @@ footer a {
   nav .nav__links a {
     text-decoration: none;
     font-size: 18px;
-    color: rgb(23, 45, 53);
+    color: #172d35;
     font-weight: bold;
   }
   nav .nav__links a:hover {
@@ -202,6 +207,7 @@ footer a {
     background-color: #9ae1e1;
     font-weight: bold;
   }
+
   .mainContent .introSection {
     height: 40vh;
     flex-wrap: wrap;
@@ -273,6 +279,7 @@ footer a {
   .mainContent .projectsSection .projectsSection__contentContainer button {
     align-items: left;
   }
+
   footer {
     margin-top: 0%;
     display: flex;
@@ -332,5 +339,7 @@ footer a {
 @media (prefers-reduced-motion) {
   .hidden {
     transition: none;
+  }
+}n: none;
   }
 }/*# sourceMappingURL=style.css.map */

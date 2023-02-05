@@ -159,6 +159,7 @@ p {
 .projectsSection .projectsSection__contentContainer div img {
   width: 100%;
   max-width: 60vw;
+  height: 25vh;
 }
 
 footer {

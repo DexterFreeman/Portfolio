@@ -16,9 +16,9 @@ A small introduction section about myself and lastly links to my LinkedIn, Socia
 This website was built was accessability in mind. By default the website does have on-scroll animations: if you wish to disable these please use the preferes reduced motion setting within your operating system. 
 Light house score: 
 
-![lighthouse score](lighthouse-score.jpg)
+![lighthouse score](https://i.ibb.co/hHJGcPC/lighthouse-score.jpg)
 
 
 (If you don't disable the on scroll animations using preferes reduced motion, the lighthouse test will fail)
 
-![css media query](carbon.png)
+![css media query](https://i.ibb.co/brYj5TT/carbon.png)

@@ -1,0 +1,63 @@
+.blueButton {
+    font-weight: bold;
+    font-size: 20px;
+    background-color: $aqua;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px 20px;
+}
+
+.blueButton:hover {
+    background-color: $button-hover-color;
+}
+
+
+.blueUnderline {
+    background-image: linear-gradient(to right, #bae8e8, #bae8e8);
+  }
+
+section{
+    .blueUnderline {
+        background-size: 100% 22%;
+        background-repeat: no-repeat;
+        background-position: 0 90%;
+    }
+
+
+    .introSection{
+        .blueUnderline {
+            background-image: url("../../images/Vector.png");
+        }
+    }
+
+    .skillsSection{
+        .blueUnderline {
+            background-image: linear-gradient(to right, #bae8e8, #bae8e8);
+        }
+    }
+}
+
+nav{
+    a {
+        margin-left: 3%;
+     
+        text-decoration: none;
+        font-size: 18px;
+        color: $color-text-blue;
+        font-weight: bold;
+      }
+      a:hover {
+        background-color: $button-hover-color;
+      }
+}
+
+.project-section__button {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+  }

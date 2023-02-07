@@ -4,7 +4,7 @@ Hello, this is my personal portfolio which I created in January 2022 during the 
 
 ## View
 
-You can view my portfolio via github pages using this link: [https://dexterfreeman.github.io/portfolio/src/index.html](https://dexterfreeman.github.io/portfolio/src/index.html). 
+You can view my portfolio via github pages using this link: [https://dexterfreeman.github.io/portfolio](https://dexterfreeman.github.io/portfolio). 
  
 ## Contents
 This portfolio includes my projects, with links to their respective source code and live view within the "My Projects" section. 

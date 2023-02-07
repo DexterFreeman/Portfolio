@@ -294,6 +294,9 @@ footer {
   .mainContent .projectsSection .projectsSection__contentContainer button {
     align-items: left;
   }
+  .mainContent .projectsSection .projectsSection__contentContainer__contentContainer img {
+    width: 92%;
+  }
   footer {
     margin-top: 0%;
     display: flex;
@@ -329,6 +332,9 @@ footer {
   .mainContent .projectsSection h1 {
     font-size: 50px;
     margin-bottom: 4%;
+  }
+  .mainContent .projectsSection__contentContainer img {
+    width: 85%;
   }
 }
 

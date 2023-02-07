@@ -39,6 +39,12 @@
           font-size: 50px;
           margin-bottom: 4%;
         }
+
+        &__contentContainer {
+          img {
+            width: 85%;
+          }
+        }
       }
     }
   }

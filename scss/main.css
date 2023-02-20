@@ -65,7 +65,7 @@ section .blueUnderline {
   background-position: 0 90%;
 }
 section .introSection .blueUnderline {
-  background-image: url("../../images/Vector.png");
+  background-image: url("../images/Vector.png");
 }
 section .skillsSection .blueUnderline {
   background-image: linear-gradient(to right, #bae8e8, #bae8e8);

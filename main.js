@@ -2,9 +2,9 @@
 //When these components come into view, .show is added to that components class, which triggers a CSS animation,
 //Which can be viewed in /styling/style.scss.
 
+const blob = document.getElementById("block");
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
-
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
@@ -12,14 +12,9 @@ const observer = new IntersectionObserver((entries) => {
     }
   });
 });
-
-
-const blob = document.getElementById("block");
-
 //Gets all elements with the .hidden class to pass into the intersection observer.
 const hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach((el) => observer.observe(el));
-
 document.onpointermove = event => {
   blob.animate({
     left: `${event.pageX}px`,

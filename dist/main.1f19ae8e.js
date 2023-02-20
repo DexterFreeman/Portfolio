@@ -121,9 +121,9 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 //Intersection observer observes any components that are currently visible to the user/on screen.
 //When these components come into view, .show is added to that components class, which triggers a CSS animation,
 //Which can be viewed in /styling/style.scss.
+
 var observer = new IntersectionObserver(function (entries) {
   entries.forEach(function (entry) {
-    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
@@ -131,12 +131,22 @@ var observer = new IntersectionObserver(function (entries) {
     }
   });
 });
+var blob = document.getElementById("block");
 
 //Gets all elements with the .hidden class to pass into the intersection observer.
 var hiddenElements = document.querySelectorAll(".hidden");
 hiddenElements.forEach(function (el) {
   return observer.observe(el);
 });
+document.onpointermove = function (event) {
+  blob.animate({
+    left: "".concat(event.pageX, "px"),
+    top: "".concat(event.pageY, "px")
+  }, {
+    duration: 3000,
+    fill: "forwards"
+  });
+};
 },{}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
@@ -162,7 +172,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "64466" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53257" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

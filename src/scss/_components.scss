@@ -61,3 +61,39 @@ nav{
     background-color: white;
     text-decoration: none;
   }
+
+
+
+#block{ 
+    left: 50%;
+    top: 50%;
+    background-color: black;
+    height: 300px;
+    aspect-ratio: 1;
+    position: absolute;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(
+        to right, 
+        aquamarine, 
+        mediumpurple
+    );
+    animation: rotate 20s infinite; 
+    filter: blur(200px);
+}
+
+
+
+@keyframes rotate{
+    from{
+        rotate: 0deg; 
+    }
+
+    50%{
+        scale: 1 1.5;
+    }
+
+    to{
+        rotate: 360deg;
+    }
+}

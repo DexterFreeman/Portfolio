@@ -65,6 +65,7 @@ nav{
 
 
 #block{ 
+    display: inline;
     left: 50%;
     top: 50%;
     background-color: black;
@@ -73,6 +74,7 @@ nav{
     position: absolute;
     translate: -50% -50%;
     border-radius: 50%;
+    overflow: hidden;
     background: linear-gradient(
         to right, 
         aquamarine, 
@@ -81,8 +83,12 @@ nav{
     animation: rotate 20s infinite; 
     filter: blur(200px);
 }
-
-
+@media screen and (max-width: 1120px){
+    #block{
+        display: none;
+    }
+    
+}
 
 @keyframes rotate{
     from{

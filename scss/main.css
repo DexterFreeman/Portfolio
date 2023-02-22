@@ -4,6 +4,9 @@
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   color: rgb(23, 45, 53);
   scroll-behavior: smooth;
+}
+
+body {
   overflow-x: hidden;
 }
 

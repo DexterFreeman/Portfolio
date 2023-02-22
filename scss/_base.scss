@@ -18,10 +18,12 @@ $button-hover-color: #cdf3f3;
         "Lucida Sans", Arial, sans-serif;
     color: $color-text-blue;
     scroll-behavior: smooth;      
-    overflow-x: hidden;
+    
 }
     
- 
+ body{
+  overflow-x: hidden;
+ }
     
     //Hide nav bar
   nav {

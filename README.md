@@ -5,8 +5,7 @@ Hello, this is my personal portfolio which I created in January 2022 during the 
 ## View
 
 You can view my portfolio via github pages using this link: [https://dexterfreeman.github.io/Portfolio](https://dexterfreeman.github.io/Portfolio). 
-
-[!gif of portfolio](./images/portfolio.gif)
+![portfolio](https://user-images.githubusercontent.com/67049776/220784098-aea98ad6-a77f-420a-8725-4d46c665b2b1.gif)
 
 ## Animations
 There are two animations on the page. If hardware acceleration is not enabled in your browser these animations will have a low frame-rate which may affect your experience. 

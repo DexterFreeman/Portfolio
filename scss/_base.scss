@@ -1,76 +1,70 @@
-
 //contained within this file are all your resets, variables, mixins, and any utility classes.
 
-$color-darker-blue: #557A95;
+$color-darker-blue: #557a95;
 $color-text-blue: rgb(23, 45, 53);
 $color-button-blue: rgb(37, 150, 190);
-$color-text-light-blue: #1B8383;
+$color-text-light-blue: #1b8383;
 $aqua: #9ae1e1;
-$aboutme-color: #E3F6F5;
+$aboutme-color: #e3f6f5;
 $footer-color: #272643;
 $button-hover-color: #cdf3f3;
 
-
-*{
-    padding: 0;
-    margin: 0;
-    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-        "Lucida Sans", Arial, sans-serif;
-    color: $color-text-blue;
-    scroll-behavior: smooth;      
-    
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: $color-text-blue;
+  scroll-behavior: smooth;
 }
-    
- main{
+
+main {
   max-width: 100vw;
- }
- body{
+}
+body {
   overflow-x: hidden;
- }
-    
-    //Hide nav bar
-  nav {
-    display: none;
-  }
-    
+}
+
+//Hide nav bar
+nav {
+  display: none;
+}
+
 p {
-    color: $color-text-light-blue;
-    font-size: 24px;
+  color: $color-text-light-blue;
+  font-size: 24px;
 }
 
+footer {
+  p {
+    color: white;
+    font-size: 20px;
+  }
 
-footer{
-    p {
-        color: white;
-        font-size: 20px;
-    }
-    
-    a {
-        text-decoration: none;
-    }
+  a {
+    text-decoration: none;
+  }
 }
-    
 
 //Components with .hidden have an onscroll animation, by using an
 //intersection observer in main.js to add the .show class.
 .hidden {
-    opacity: 0;
-    filter: blur(5px);
-    transform: translateX(-20%);
-    transition: all 1s;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-20%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+//for accessability, removes transition if user wants.
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
   }
-  
-  .show {
-    opacity: 1;
-    filter: blur(0);
-    transform: translateX(0);
-  }
-  
-  //for accessability, removes transition if user wants.
-  
-  @media (prefers-reduced-motion) {
-    .hidden {
-      transition: none;
-    }
-  }
-  
+}

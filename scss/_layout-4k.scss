@@ -1,51 +1,47 @@
- 
-  @media screen and (min-width: 1700px) {
-    .mainContent {
-      .introSection {
-        height: 55vh;
-        flex-wrap: wrap;
-  
-        .introSection__title {
-          font-size: 80px;
-        }
-      }
-  
-      .aboutMeSection {
-        height: 54vh;
-  
-        .aboutMeSection__aboutMeText {
-          font-size: 24px;
-        }
-  
-        .aboutMeSection__title--desktop {
-          font-size: 40px;
-        }
-      }
-  
-      .skillsSection {
-        width: 80%;
-  
-        h1 {
-          font-size: 50px;
-        }
-  
-        
-      }
-  
-      .projectsSection {
-        width: 80vw;
-  
-        h1 {
-          font-size: 50px;
-          margin-bottom: 4%;
-        }
+@media screen and (min-width: 1700px) {
+  .mainContent {
+    .introSection {
+      height: 55vh;
+      flex-wrap: wrap;
 
-        &__contentContainer {
-          img {
-            width: 85%;
-          }
+      .introSection__title {
+        font-size: 80px;
+      }
+    }
+
+    .aboutMeSection {
+      height: 54vh;
+
+      .aboutMeSection__aboutMeText {
+        font-size: 24px;
+      }
+
+      .aboutMeSection__title--desktop {
+        font-size: 40px;
+      }
+    }
+
+    .skillsSection {
+      width: 80%;
+
+      h1 {
+        font-size: 50px;
+      }
+    }
+
+    .projectsSection {
+      width: 80vw;
+
+      h1 {
+        font-size: 50px;
+        margin-bottom: 4%;
+      }
+
+      &__contentContainer {
+        img {
+          width: 85%;
         }
       }
     }
   }
-  
+}

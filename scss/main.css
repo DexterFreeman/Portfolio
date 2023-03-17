@@ -19,7 +19,7 @@ nav {
 }
 
 p {
-  color: #1B8383;
+  color: #1b8383;
   font-size: 24px;
 }
 
@@ -186,7 +186,8 @@ nav a:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
-.skillsSection h1, .skillsSection p {
+.skillsSection h1,
+.skillsSection p {
   margin-bottom: 5%;
 }
 .skillsSection__icons {
@@ -236,18 +237,18 @@ nav a:hover {
 .projectsSection__contentContainer div img {
   width: 100%;
   max-width: 60vw;
-  height: 25vh;
+  height: 30vh;
 }
 
 footer {
   height: 200px;
-  background-color: #557A95;
+  background-color: #557a95;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #557A95;
+  background-color: #557a95;
 }
 
 @media screen and (min-width: 1120px) {
@@ -278,7 +279,7 @@ footer {
     display: flex;
   }
   .mainContent .aboutMeSection {
-    background-color: #E3F6F5;
+    background-color: #e3f6f5;
     height: 50vh;
     flex-wrap: wrap;
     margin: 0;

@@ -6,9 +6,12 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #001220;
+  padding-left: 2%; 
+  padding-right: 2%; 
 
-  section {
-    margin: 20%;
+  section{
+    margin-bottom: 20%;
   }
 
   .introSection {
@@ -17,7 +20,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-
+    
     &__title {
       font-size: 50px;
     }
@@ -97,6 +100,15 @@
   h1 {
     text-align: left;
   }
+  #project1, #project4{
+    transition-delay: 200ms;
+  }
+  #project2, #project5{
+    transition-delay: 450ms;
+  }
+  #project3, #project6{
+    transition-delay: 700ms;
+  }
 
   #project5,
   #project6 {
@@ -129,11 +141,11 @@
 
 footer {
   height: 200px;
-  background-color: $color-darker-blue;
+  background-color:#2596be;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: $color-darker-blue;
+
 }

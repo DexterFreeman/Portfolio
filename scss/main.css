@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: rgb(23, 45, 53);
+  color: #d7f4ff;
   scroll-behavior: smooth;
 }
 
@@ -18,8 +18,26 @@ nav {
   display: none;
 }
 
+.spacer {
+  aspect-ratio: 900/300;
+  margin-left: -2%;
+  margin-right: 3%;
+  width: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.backgroundOne {
+  background-image: url("../images/background/backgroundOne.svg");
+}
+
+.backgroundTwo {
+  background-image: url("../images/background/backgroundTwo.svg");
+}
+
 p {
-  color: #1b8383;
+  color: #25b3b3;
   font-size: 24px;
 }
 
@@ -79,17 +97,6 @@ section .skillsSection .blueUnderline {
   background-image: linear-gradient(to right, #bae8e8, #bae8e8);
 }
 
-nav a {
-  margin-left: 3%;
-  text-decoration: none;
-  font-size: 18px;
-  color: rgb(23, 45, 53);
-  font-weight: bold;
-}
-nav a:hover {
-  background-color: #cdf3f3;
-}
-
 .project-section__button {
   font-size: 24px;
   font-weight: bold;
@@ -105,7 +112,7 @@ nav a:hover {
   left: 50%;
   top: 50%;
   background-color: black;
-  height: 300px;
+  height: 150px;
   aspect-ratio: 1;
   position: absolute;
   translate: -50% -50%;
@@ -138,9 +145,12 @@ nav a:hover {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: #001220;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 .mainContent section {
-  margin: 20%;
+  margin-bottom: 20%;
 }
 .mainContent .introSection {
   display: flex;
@@ -217,6 +227,15 @@ nav a:hover {
 .projectsSection h1 {
   text-align: left;
 }
+.projectsSection #project1, .projectsSection #project4 {
+  transition-delay: 200ms;
+}
+.projectsSection #project2, .projectsSection #project5 {
+  transition-delay: 450ms;
+}
+.projectsSection #project3, .projectsSection #project6 {
+  transition-delay: 700ms;
+}
 .projectsSection #project5,
 .projectsSection #project6 {
   display: none;
@@ -242,27 +261,45 @@ nav a:hover {
 
 footer {
   height: 200px;
-  background-color: #557a95;
+  background-color: #2596be;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: #557a95;
 }
 
 @media screen and (min-width: 1120px) {
   nav {
-    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0 5% 0 -5%;
+    background-color: #2596be;
+    height: 80px;
+    width: 100%;
+  }
+  nav h1 {
+    margin-left: 2%;
+  }
+  nav .nav__links {
+    margin-right: 2%;
+    width: 31%;
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
-  nav .nav__links {
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  nav a {
+    margin-left: 3%;
+    text-decoration: none;
+    font-size: 18px;
+    color: #d7f4ff;
+    font-weight: bold;
+    z-index: 2;
+  }
+  nav a:hover {
+    background-color: #cdf3f3;
   }
   .mainContent .introSection {
     height: 40vh;
@@ -279,7 +316,6 @@ footer {
     display: flex;
   }
   .mainContent .aboutMeSection {
-    background-color: #e3f6f5;
     height: 50vh;
     flex-wrap: wrap;
     margin: 0;

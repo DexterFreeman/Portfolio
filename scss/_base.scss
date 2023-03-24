@@ -1,9 +1,9 @@
 //contained within this file are all your resets, variables, mixins, and any utility classes.
 
 $color-darker-blue: #557a95;
-$color-text-blue: rgb(23, 45, 53);
-$color-button-blue: rgb(37, 150, 190);
-$color-text-light-blue: #1b8383;
+$color-text-blue: #d7f4ff;
+$color-button-blue: #082e3b;
+$color-text-light-blue: #25b3b3;
 $aqua: #9ae1e1;
 $aboutme-color: #e3f6f5;
 $footer-color: #272643;
@@ -28,6 +28,24 @@ body {
 //Hide nav bar
 nav {
   display: none;
+}
+
+.spacer{
+  aspect-ratio: 900/300;
+  margin-left: -2%;
+  margin-right: 3%;
+  width: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.backgroundOne{
+  background-image: url('../images/background/backgroundOne.svg');
+}
+
+.backgroundTwo{
+  background-image: url('../images/background/backgroundTwo.svg');
 }
 
 p {

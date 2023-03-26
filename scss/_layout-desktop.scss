@@ -48,6 +48,7 @@
 
       .introSection__image {
         width: 45%;
+        max-width: 400px;
         //display flex to make image visible - was none
         display: flex;
       }
@@ -84,22 +85,9 @@
     }
 
     .skillsSection {
-      width: 100%;
-
-      .skillsSection__icons {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-self: center;
+      .skills__frontend, .skills__backend, .skills__tools, .skills_languages {
         width: 90%;
         max-width: 90%;
-
-        img {
-          height: 5%;
-          width: 5%;
-          margin: 3%;
-        }
       }
     }
 

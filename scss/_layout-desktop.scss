@@ -96,11 +96,16 @@
 
       //Switched to display grid, instead of being display: flex; so it fits the page better.
       .projectsSection__contentContainer {
+        width: 80vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-gap: 2%;
-
+        #project1, #project2, #project3, #project4, #project5, #projeect6{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+        }
         //Adds these projects into view as their previous display was none.
         #project5,
         #project6 {
@@ -110,12 +115,13 @@
         button {
           align-items: left;
         }
-
-        &__contentContainer {
-          img {
-            width: 92%;
-          }
+        img{
+          width: 25vw;
         }
+
+    
+          
+        
       }
     }
   }

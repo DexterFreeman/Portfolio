@@ -7,7 +7,7 @@ $color-text-light-blue: #25b3b3;
 $aqua: #9ae1e1;
 $aboutme-color: #e3f6f5;
 $footer-color: #272643;
-$button-hover-color: #cdf3f3;
+$button-hover-color: #9eeeee;
 
 * {
   padding: 0;
@@ -32,11 +32,7 @@ nav {
 
 .spacer{
   aspect-ratio: 900/300;
-  
-  width: 110%;
-  max-width: 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
+  width: 100%;
   background-size: cover;
 }
 

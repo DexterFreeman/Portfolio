@@ -210,6 +210,24 @@ section .skillsSection .blueUnderline {
   background-color: #272643;
   text-align: center;
 }
+.skillsSection .skills__icon:nth-child(1) {
+  transition-delay: 200ms;
+}
+.skillsSection .skills__icon:nth-child(2) {
+  transition-delay: 250ms;
+}
+.skillsSection .skills__icon:nth-child(3) {
+  transition-delay: 300ms;
+}
+.skillsSection .skills__icon:nth-child(4) {
+  transition-delay: 350ms;
+}
+.skillsSection .skills__icon:nth-child(5) {
+  transition-delay: 400ms;
+}
+.skillsSection .skills__icon:nth-child(6) {
+  transition-delay: 450ms;
+}
 .skillsSection .skills__frontend, .skillsSection .skills__backend, .skillsSection .skills__tools, .skillsSection .skills__languages, .skillsSection .skills__testing {
   display: flex;
   width: 80%;

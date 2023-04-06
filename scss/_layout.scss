@@ -75,6 +75,8 @@
     margin-bottom: 5%;
   }
   &__images{
+    display: flex;
+    gap: 20px;
     img{
       
       height: 80px;

@@ -74,74 +74,14 @@
   p {
     margin-bottom: 5%;
   }
-  .skills__icon{ 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    border-radius: 5px;
-    width: 120px;
-    background-color: $footer-color;
-    text-align: center;
-  }
-  
-  .skills__icon:nth-child(1){ 
-    transition-delay: 200ms
-  }
-  .skills__icon:nth-child(2){ 
-    transition-delay: 250ms
-  }
-  .skills__icon:nth-child(3){ 
-    transition-delay: 300ms
-  }
-  .skills__icon:nth-child(4){ 
-    transition-delay: 350ms
-  }
-  .skills__icon:nth-child(5){ 
-    transition-delay: 400ms
-  }
-  .skills__icon:nth-child(6){ 
-    transition-delay: 450ms
-  }
-  .skills__frontend, .skills__backend, .skills__tools, .skills__languages, .skills__testing{
-    display: flex;
-    width: 80%;
-    flex-direction: column;
-    flex-wrap: wrap;
-  
-    img {
+  &__images{
+    img{
+      
       height: 80px;
-      width: auto;
-      aspect-ratio: 0.9;
-      margin: 5%;
-    }
-
-    #frontend{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    #backend{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    #tools{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    #languages{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
-    }
-    #testing{
-      display: flex;
-      flex-wrap: wrap;
-      gap: 20px;
     }
   }
+  
+  
 }
 
 .projectsSection {

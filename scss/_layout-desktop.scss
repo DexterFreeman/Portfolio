@@ -85,9 +85,10 @@
     }
 
     .skillsSection {
-      .skills__frontend, .skills__backend, .skills__tools, .skills_languages {
-        width: 90%;
-        max-width: 90%;
+      &__images{
+        img{
+          height: 100px;
+        }
       }
     }
 
@@ -118,10 +119,6 @@
         img{
           width: 25vw;
         }
-
-    
-          
-        
       }
     }
   }

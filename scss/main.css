@@ -200,70 +200,8 @@ section .skillsSection .blueUnderline {
 .skillsSection p {
   margin-bottom: 5%;
 }
-.skillsSection .skills__icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 50px;
-  border-radius: 5px;
-  width: 120px;
-  background-color: #272643;
-  text-align: center;
-}
-.skillsSection .skills__icon:nth-child(1) {
-  transition-delay: 200ms;
-}
-.skillsSection .skills__icon:nth-child(2) {
-  transition-delay: 250ms;
-}
-.skillsSection .skills__icon:nth-child(3) {
-  transition-delay: 300ms;
-}
-.skillsSection .skills__icon:nth-child(4) {
-  transition-delay: 350ms;
-}
-.skillsSection .skills__icon:nth-child(5) {
-  transition-delay: 400ms;
-}
-.skillsSection .skills__icon:nth-child(6) {
-  transition-delay: 450ms;
-}
-.skillsSection .skills__frontend, .skillsSection .skills__backend, .skillsSection .skills__tools, .skillsSection .skills__languages, .skillsSection .skills__testing {
-  display: flex;
-  width: 80%;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
-.skillsSection .skills__frontend img, .skillsSection .skills__backend img, .skillsSection .skills__tools img, .skillsSection .skills__languages img, .skillsSection .skills__testing img {
+.skillsSection__images img {
   height: 80px;
-  width: auto;
-  aspect-ratio: 0.9;
-  margin: 5%;
-}
-.skillsSection .skills__frontend #frontend, .skillsSection .skills__backend #frontend, .skillsSection .skills__tools #frontend, .skillsSection .skills__languages #frontend, .skillsSection .skills__testing #frontend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.skillsSection .skills__frontend #backend, .skillsSection .skills__backend #backend, .skillsSection .skills__tools #backend, .skillsSection .skills__languages #backend, .skillsSection .skills__testing #backend {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.skillsSection .skills__frontend #tools, .skillsSection .skills__backend #tools, .skillsSection .skills__tools #tools, .skillsSection .skills__languages #tools, .skillsSection .skills__testing #tools {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.skillsSection .skills__frontend #languages, .skillsSection .skills__backend #languages, .skillsSection .skills__tools #languages, .skillsSection .skills__languages #languages, .skillsSection .skills__testing #languages {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.skillsSection .skills__frontend #testing, .skillsSection .skills__backend #testing, .skillsSection .skills__tools #testing, .skillsSection .skills__languages #testing, .skillsSection .skills__testing #testing {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 .projectsSection {
@@ -395,9 +333,8 @@ footer {
   .mainContent .aboutMeSection .aboutMeSection__title--mobile {
     display: none;
   }
-  .mainContent .skillsSection .skills__frontend, .mainContent .skillsSection .skills__backend, .mainContent .skillsSection .skills__tools, .mainContent .skillsSection .skills_languages {
-    width: 90%;
-    max-width: 90%;
+  .mainContent .skillsSection__images img {
+    height: 100px;
   }
   .mainContent .projectsSection {
     width: 80vw;
@@ -452,6 +389,9 @@ footer {
   }
   .mainContent .skillsSection h1 {
     font-size: 50px;
+  }
+  .mainContent .skillsSection__images img {
+    height: 120px;
   }
   .mainContent .projectsSection {
     width: 80vw;

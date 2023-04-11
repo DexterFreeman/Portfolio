@@ -8,8 +8,7 @@
   text-align: center;
   background-color: #001220;
 
-
-  section{
+  section {
     padding-left: 2%;
     padding-right: 2%;
     margin-bottom: 15%;
@@ -21,7 +20,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     text-align: left;
-  
+
     &__title {
       font-size: 50px;
     }
@@ -41,7 +40,6 @@
   &__title--desktop {
     display: none;
     margin-bottom: 0%;
-    
   }
 
   &__aboutMeText {
@@ -70,20 +68,19 @@
   margin-left: 5%;
   margin-right: 5%;
   text-align: left;
+
   h1,
   p {
     margin-bottom: 5%;
   }
-  &__images{
+  &__images {
     display: flex;
     gap: 20px;
-    img{
-      
+    flex-wrap: wrap;
+    img {
       height: 80px;
     }
   }
-  
-  
 }
 
 .projectsSection {
@@ -95,7 +92,8 @@
     font-size: 40px;
     margin-bottom: 5%;
   }
-  details, summary{
+  details,
+  summary {
     font-size: 22px;
     color: $color-text-light-blue;
   }
@@ -103,13 +101,16 @@
   h1 {
     text-align: left;
   }
-  #project1, #project4{
+  #project1,
+  #project4 {
     transition-delay: 200ms;
   }
-  #project2, #project5{
+  #project2,
+  #project5 {
     transition-delay: 450ms;
   }
-  #project3, #project6{
+  #project3,
+  #project6 {
     transition-delay: 700ms;
   }
 
@@ -136,7 +137,6 @@
         aspect-ratio: 1.5;
         //max-width to stop overflow.
         max-width: 60vw;
- 
       }
     }
   }
@@ -144,11 +144,10 @@
 
 footer {
   height: 200px;
-  background-color:#2596be;
+  background-color: #2596be;
   color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-
 }

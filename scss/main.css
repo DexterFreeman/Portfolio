@@ -210,6 +210,7 @@ section .skillsSection .blueUnderline {
 .skillsSection__images {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 .skillsSection__images img {
   height: 80px;
@@ -224,7 +225,8 @@ section .skillsSection .blueUnderline {
   font-size: 40px;
   margin-bottom: 5%;
 }
-.projectsSection details, .projectsSection summary {
+.projectsSection details,
+.projectsSection summary {
   font-size: 22px;
   color: #25b3b3;
 }
@@ -232,13 +234,16 @@ section .skillsSection .blueUnderline {
 .projectsSection h1 {
   text-align: left;
 }
-.projectsSection #project1, .projectsSection #project4 {
+.projectsSection #project1,
+.projectsSection #project4 {
   transition-delay: 200ms;
 }
-.projectsSection #project2, .projectsSection #project5 {
+.projectsSection #project2,
+.projectsSection #project5 {
   transition-delay: 450ms;
 }
-.projectsSection #project3, .projectsSection #project6 {
+.projectsSection #project3,
+.projectsSection #project6 {
   transition-delay: 700ms;
 }
 .projectsSection #project5,
